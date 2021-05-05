@@ -8,7 +8,8 @@ command line.
 
 I thought it would be nice to follow less people and found the Twitter
 interface a bit clunky for doing that for a lot of people. So here is
-a *really* clunky interface for unfollowing people that is optimized for me.
+a *really* clunky interface for unfollowing people that is optimized for yours
+truly. PRs to make it easier for you are welcome :)
 
 <img width="800" src="https://raw.githubusercontent.com/edsu/unfo/main/screenshot.png">
 
