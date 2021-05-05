@@ -28,6 +28,8 @@ def handle_limit(cursor):
             yield next(cursor)
         except tweepy.RateLimitError:
             time.sleep(15 * 60)
+        except StopIteration:
+            break
 
 def friends(user):
     if not os.path.isfile('friends.json'):
@@ -39,8 +41,14 @@ def friends(user):
 
 def check(user, friend):
     print()
-    print(f'{friend["name"]} @{friend["screen_name"]} [{friend["friends_count"]}/{friend["followers_count"]}')
+    print('---')
+    print()
+    print(f'{friend["name"]} @{friend["screen_name"]} [{friend["friends_count"]}/{friend["followers_count"]}]')
     print(friend['description'])
+    print(f'https://twitter.com/{friend["screen_name"]}')
+    print()
+    print(friend['status']['created_at'])
+    print(friend['status']['text'])
     print()
     answer = input('Unfollow? [Y/n] ')
     if answer == '' or answer.lower() == 'y':
