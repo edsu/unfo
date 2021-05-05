@@ -8,3 +8,5 @@ command line.
 
 I thought it would be nice to follow less people and found the Twitter interface a bit clunky for doing that.
 
+<img width="800" src="https://raw.githubusercontent.com/edsu/unfo/master/images/screenshot.png">
+
