@@ -6,7 +6,9 @@ command line.
     # edit .env with keys
     python unfo.py edsu
 
-I thought it would be nice to follow less people and found the Twitter interface a bit clunky for doing that.
+I thought it would be nice to follow less people and found the Twitter
+interface a bit clunky for doing that for a lot of people. So here is
+a *really* clunky interface for unfollowing people that is optimized for me.
 
 <img width="800" src="https://raw.githubusercontent.com/edsu/unfo/main/screenshot.png">
 
